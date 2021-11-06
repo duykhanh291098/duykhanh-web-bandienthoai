@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    font-size: 13px;
+    background: #fff;
+
+}
+#header {
+    background: #333333;
+}
+#header-search, #header-cart, #header-logo{
+    height: 60px;
+}
+#header-search, #header-cart{
+    padding-top: 15px;
+}
+#header-search input{
+    border-radius: 3px 0 0 3px;
+    width: 280px;
+    height: 30px;
+    font-size: 13px;
+}
+#header-search button{
+    height: 30px;
+    border-radius: 0 3px 3px 0;
+    width: 90px;
+    color: #fff;
+    background: #ff3333;
+    font-size: 13px;
+}
+#header-cart{
+    text-align: right;
+}
+#header-cart a{
+    color: #fff;
+    margin-right: 10px;
+}
+#header-cart span{
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ff3333;
+}
+#body{
+    background: #e7ecf4;
+}
+#body-menu ul{
+    display: flex;
+    background: #ff3333;
+}
+#body-menu ul li{
+    list-style: none;
+    padding: 0 15px;
+    line-height: 40px;
+    border: 1px solid #cc0000;
+}
+#body-menu ul li a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+.products h3{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.products img{
+    width: 128px;
+    height: 180px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.products h4{
+    font-weight: bold;
+    color: #333;
+    font-size: 13px;
+}
+.products p span{
+    color: #ff3333;
+    font-weight: bold;
+}
+.products-list-item{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    text-align: center;
+}
+.products-list {
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+}
+#footer-top{
+    padding-top: 20px;
+}
+#address h3, #services h3, #hotLine h3{
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+#footer-bottom {
+    background: #333333;
+    height: 40px;
+    color: #ccc;
+}
+#footer-bottom p{
+    line-height: 40px;
+    margin: 0;
+}
